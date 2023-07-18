@@ -30,6 +30,8 @@ For the purpose of augmentation, like Random shifting, rotation, zooming, and re
 ### Ploting the Loss and Accuracy
 ### Prediction is done for Testing Directory and Single Image 
 
+#### Here, this model is done using CNN on Google Colab. 
+
 
 
 
