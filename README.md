@@ -1,7 +1,7 @@
 # Image-Classification-using-CNN
  Convolutional Neural Network model is build for Image Classification
 
- Here, images of fruits and other images are choosen randomely and formed dataset. The dataset contains 647 images of 6 Classes - ApplePie , Bibimbop,Bread, FriedRice,BagelSandwich and Pork. 
+ Here, images of fruits and other images are choosen randomely and formed dataset. The dataset contains 497 images of 6 Classes - ApplePie , Bibimbop,Bread, FriedRice,BagelSandwich and Pork. 
 
 ### Dependence
 ```
@@ -12,6 +12,7 @@ pandas
 PIL
 ```
 ### Specify the train and test directory’s path. 
+Here, training set with 497 images and testing set with 150 images are taken.
 ### Creating the Model
 To create this model, here used Keras's sequential model. First, ‘empty’ sequential model is called. Then, the first layer is a convolutional layer with a depth of 32 and a filter size of 3x3. The activation is ‘relu’ (remain the same for all layers except the last one).
 
