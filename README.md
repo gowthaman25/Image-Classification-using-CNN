@@ -33,6 +33,11 @@ Printed model summary to see how the model looks like overall.
 For the purpose of augmentation, like Random shifting, rotation, zooming, and rescaling are some of the operations which can be done by ImageDataGenerator.
 ### Model Fit with Training Set
 ### Ploting the Loss and Accuracy
+![download](https://github.com/gowthaman25/Image-Classification-using-CNN/assets/20854784/1efebc5c-8046-47a8-ad5d-297823bdd0b1)
+
+![download (1)](https://github.com/gowthaman25/Image-Classification-using-CNN/assets/20854784/2e1b1788-81cc-47c4-a647-23177660b17f)
+
+
 ### Prediction is done for Testing Directory and Single Image 
 
 #### Here, this model is done using CNN on Google Colab. 
