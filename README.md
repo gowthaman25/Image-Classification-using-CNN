@@ -11,7 +11,11 @@ numpy
 pandas
 PIL
 ```
-### Specify the train and test directory’s path. 
+### To Execute the Code :
+1. Give the dataset path ('data_dir') and split train('train_dir') and test('test_dir') directory.
+2. To display single image, load the image with filename.
+3. Once model is created and accuracy is producted for test dataset, to validate single image- load the image and model.predict will predict the class of the given image. 
+### Training and Testing Dataset
 Here, training set with 497 images and testing set with 150 images are taken.
 ### Creating the Model
 To create this model, here used Keras's sequential model. First, ‘empty’ sequential model is called. Then, the first layer is a convolutional layer with a depth of 32 and a filter size of 3x3. The activation is ‘relu’ (remain the same for all layers except the last one).
@@ -32,6 +36,7 @@ For the purpose of augmentation, like Random shifting, rotation, zooming, and re
 ### Prediction is done for Testing Directory and Single Image 
 
 #### Here, this model is done using CNN on Google Colab. 
+## For 50 Epochs, loss: 0.3125 - accuracy: 0.9271 - val_loss: 0.1992 - val_accuracy: 0.9600. Here,testing accuracy is 96% , this can be improved further upon increasing epochs and fine tuning. 
 
 
 
